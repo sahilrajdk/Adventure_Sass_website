@@ -42,10 +42,11 @@
 .section-booking {
   padding: 15rem 0;
   background-image: linear-gradient(
-    to right bottom,
-    $color-tertiary-light,
-    $color-tertiary-dark
-  );
+      to right bottom,
+      $color-tertiary-light,
+      $color-tertiary-dark
+    ),
+    url(../../img/nat-5.jpg);
 
   @include respond(tab-port) {
     padding: 5rem 0;
@@ -59,7 +60,7 @@
       rgba($color-white, 0.9) 50%,
       transparent 50%
     ),
-    url(../../img/nat-10.jpg);
+    url(../../img/nat-5.jpg);
   background-size: cover;
 
   border-radius: 3px;
